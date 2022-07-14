@@ -2,13 +2,11 @@
 
 #### By Seung Lee, Mo Byrne
 
-#### _Simple Program that lets a user play a game of rock paper scissors against an AI.
+#### _Simple Program that lets a user play a game of rock paper scissors against an AI._
 
 ## Technologies Used
 
 * _C#_
-
-## [GitHub Pages Link](https://leark.github.io/)
 
 ## Specs
 ```
