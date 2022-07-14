@@ -2,39 +2,44 @@
 
 #### By Seung Lee, Mo Byrne
 
-#### _{Brief description of application}_
+#### _Simple Program that lets a user play a game of rock paper scissors against an AI.
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _C#_
 
 ## [GitHub Pages Link](https://leark.github.io/)
 
-## Description
+## Specs
+```
+RPS
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+Test 1
+Method should return "Draw" if both players play same hand
+Input: RPS.playRPS("paper", "paper");
+expected output: "Draw"
 
-## Setup/Installation Requirements
+Test 2
+Method should return player that plays rock against scissors
+Input: RPS.playRPS("rock", "scissors");
+expected output: "Player 1"
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+Test 3
+Method should return player that plays scissors against paper
+Input: RPS.playRPS("paper", "scissors");
+expected output: "Player 2"
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+Test 4
+Method should return player that plays paper against rock
+Input: RPS.playRPS("paper", "rock");
+expected output: "Player 1"
+```
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No Known Bugs_
 
 ## License
-
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
 
 [GNU](/LICENSE-GNU)
 
